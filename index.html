@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WhiteWhale — A Hunted Leviathan Adventure</title>
+  <meta name="description" content="You ARE the legendary White Whale — a powerful, intelligent cetacean navigating a vast ocean while pursued by an obsessed hunter." />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(180deg, #0b1026 0%, #101d3d 30%, #0d2b4d 60%, #071224 100%);
+      color: #e0e8f8;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    .container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+    header { text-align: center; padding: 3.5rem 1rem 2rem; position: relative; }
+    .whale-emoji { font-size: 4rem; display: block; margin-bottom: 0.5rem; }
+    .logo { font-size: 2.8rem; font-weight: 900; color: #ffffff; letter-spacing: -0.02em; text-shadow: 0 0 40px rgba(120,180,255,0.4); }
+    .tagline { color: #88aad0; font-size: 1.15rem; margin-top: 0.5rem; font-style: italic; }
+    .hero { text-align: center; margin: 2.5rem 0; }
+    .hero h2 { font-size: 1.3rem; color: #a8d0f0; margin-bottom: 0.5rem; }
+    .hero p { color: #b8c8e0; max-width: 650px; margin: 0 auto 1.5rem; font-size: 1.05rem; }
+    .cta-group { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; margin: 1.5rem 0; }
+    a.btn { display: inline-block; padding: 0.85rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1rem; transition: transform 0.15s, box-shadow 0.15s; }
+    a.btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.4); }
+    .btn-primary { background: #3a8fd4; color: #fff; }
+    .btn-secondary { background: rgba(255,255,255,0.08); color: #d0e0f8; border: 1px solid rgba(255,255,255,0.2); }
+    .btn-wishlist { background: rgba(255,255,255,0.05); color: #8aaad0; border: 1px dashed rgba(255,255,255,0.2); }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin: 2rem 0; }
+    .feature { background: rgba(255,255,255,0.04); padding: 1.25rem; border-radius: 10px; border-top: 3px solid #3a8fd4; backdrop-filter: blur(4px); }
+    .feature h3 { font-size: 1rem; color: #a8d0f0; margin-bottom: 0.4rem; }
+    .feature p { font-size: 0.9rem; color: #a0b0c8; }
+    .zones { background: rgba(10,30,70,0.5); padding: 1.5rem; border-radius: 10px; margin: 2rem 0; }
+    .zones h2 { color: #a8d0f0; margin-bottom: 1rem; }
+    .zone-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 0.75rem; }
+    .zone { background: rgba(255,255,255,0.05); padding: 0.75rem; border-radius: 6px; text-align: center; color: #8899bb; font-size: 0.9rem; }
+    .themes { margin: 2rem 0; }
+    .themes h2 { color: #a8d0f0; margin-bottom: 1rem; }
+    .theme-item { padding: 0.75rem 0; border-bottom: 1px solid rgba(255,255,255,0.06); color: #9aa8c0; }
+    .theme-item strong { color: #c0d8f8; }
+    .quote { border-left: 4px solid #3a8fd4; padding: 1rem 1.5rem; margin: 2rem 0; background: rgba(58,143,212,0.08); font-style: italic; color: #b8d0f0; }
+    footer { text-align: center; padding: 2rem 1rem; color: #445566; font-size: 0.85rem; }
+    @media (max-width: 600px) {
+      .logo { font-size: 1.8rem; }
+      .cta-group { flex-direction: column; align-items: stretch; }
+      a.btn { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="whale-emoji">🐋</span>
+    <h1 class="logo">WhiteWhale</h1>
+    <p class="tagline">A hunted-leviathan action-adventure inspired by Moby Dick and Subnautica.</p>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>You ARE the Legend</h2>
+      <p>You are the legendary White Whale — powerful, intelligent, navigating a vast ocean while pursued by an obsessed hunter. Survive, grow stronger, and decide your fate: evade forever, confront Ahab, or embrace your legendary destiny.</p>
+      <div class="cta-group">
+        <a class="btn btn-primary" href="play/index.html">▶ Play Demo</a>
+        <a class="btn btn-secondary" href="https://github.com/subtiliorars-sys/WhiteWhale---Preview">Star on GitHub</a>
+        <span class="btn btn-wishlist">🚢 Coming to Steam</span>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h3>🎯 Hunted Protagonist</h3>
+        <p>Flip the predator-prey dynamic. You are the hunted — Ahab is the hunter. Every encounter escalates as his obsession grows.</p>
+      </div>
+      <div class="feature">
+        <h3>🌊 Ocean Exploration</h3>
+        <p>Navigate 4 interconnected zones — coral flats, deep trench, ice shelf, and open sea. Each teeming with life and danger.</p>
+      </div>
+      <div class="feature">
+        <h3>🐋 Whale Abilities</h3>
+        <p>Hunt, navigate via echolocation, and communicate through song. Your cetacean senses are your greatest weapon.</p>
+      </div>
+      <div class="feature">
+        <h3>⚔️ Dynamic Nemesis</h3>
+        <p>Ahab's obsession escalates over time. Encounters grow more intense. Can you outwit a hunter driven by legend?</p>
+      </div>
+    </section>
+
+    <section class="zones">
+      <h2>🗺 Four Ocean Zones</h2>
+      <div class="zone-list">
+        <div class="zone">🪸 Coral Flats</div>
+        <div class="zone">🌑 Deep Trench</div>
+        <div class="zone">🧊 Ice Shelf</div>
+        <div class="zone">🌊 Open Sea</div>
+      </div>
+    </section>
+
+    <section class="themes">
+      <h2>💡 Themes</h2>
+      <div class="theme-item"><strong>Mythic Inevitability:</strong> Can you escape fate, or is your legend written?</div>
+      <div class="theme-item"><strong>Intelligence & Agency:</strong> Whales are intelligent beings — how will you survive?</div>
+      <div class="theme-item"><strong>Predator–Prey Inversion:</strong> What happens when the "prey" is the protagonist?</div>
+    </section>
+
+    <div class="quote">
+      "Inspired by Moby Dick, Subnautica, and real cetacean behavior — a myth-meets-ecology story told from below the waves."
+    </div>
+
+    <section style="text-align:center; margin:3rem 0;">
+      <p style="color:#7799bb; margin-bottom:1rem;">⭐ Star the repo to follow development</p>
+      <div class="cta-group" style="justify-content:center;">
+        <a class="btn btn-primary" href="https://github.com/subtiliorars-sys/WhiteWhale---Preview">View on GitHub</a>
+        <a class="btn btn-secondary" href="docs/CONCEPT.md">Read the GDD</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 · WhiteWhale · In active development
+  </footer>
+</body>
+</html>
