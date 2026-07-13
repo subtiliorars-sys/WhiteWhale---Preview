@@ -40,6 +40,11 @@ The full source code, assets, and build system are in the private **WhiteWhale**
 
 🚧 In active development
 
+## Fleet
+
+- **HQ:** [subtiliorars-sys/WhiteWhale](https://github.com/subtiliorars-sys/WhiteWhale) *(private — org members only)*
+- **Connectome:** [subtiliorars-sys/neural-network — `connectome/`](https://github.com/subtiliorars-sys/neural-network/tree/main/connectome) (`repos.yaml`, `fleet-kanban.yaml`)
+
 ---
 
 © 2026. All rights reserved.
